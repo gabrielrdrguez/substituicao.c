@@ -24,7 +24,7 @@ int encripta_char(int valor_anterior, char c){ // para ser utilizar no encrypt, 
 }
 
 void encrypt(){
-    printf("\n Digite o valor da chave: \n")
+    printf("\n Digite o valor da chave: \n");
     int chave = scanf(" %d", &chave);
     printf("Digite a mensagem:\n");
     Fila *mensagem = fila_cria();
