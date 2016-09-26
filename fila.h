@@ -1,4 +1,4 @@
-/* nóda lista para armazenar valores reais */
+/* nó da lista para armazenar valores reais */
 struct lista {
 	char info;
 	struct lista* prox;
